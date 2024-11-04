@@ -122,7 +122,7 @@ class RollNo {
   DateTime? postingDate;
   String? itemNo;
   String? locationCode;
-  int? quantity;
+  dynamic quantity;
   String? unitOfMeasureCode;
   String? lotNo;
 

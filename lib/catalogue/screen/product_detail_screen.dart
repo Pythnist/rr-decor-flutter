@@ -393,7 +393,7 @@ class ProductDetailView extends StatelessWidget {
             ),
             DataCell(
               Text(
-                "${controller!.productDetailModel!.result!.rollNo!.elementAt(index).quantity!}",
+                "${double.parse(controller!.productDetailModel!.result!.rollNo!.elementAt(index).quantity!.toString()).toStringAsFixed(2)}",
                 style: Get.theme.textTheme.titleSmall!,
                 overflow: TextOverflow.ellipsis,
                 textScaler: TextScaler.linear(Get.textScaleFactor),
