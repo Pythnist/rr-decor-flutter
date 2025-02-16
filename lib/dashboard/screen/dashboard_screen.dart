@@ -304,7 +304,7 @@ class DDrawer extends StatelessWidget {
                       Get.back();
                       Get.toNamed(Routes.loginUrl);
                 }),
-              ) : DrawerHeader(child:Container(
+              ) : Container(
 
                 padding: EdgeInsets.only(left: 10.0,right: 10.0,bottom: 20.0,top: 20.0),
                 child: Column(
@@ -348,7 +348,7 @@ class DDrawer extends StatelessWidget {
                     )
                   ],
                 ),
-              )) ,
+              ) ,
 
               // Divider(
               //   thickness: 1.5,

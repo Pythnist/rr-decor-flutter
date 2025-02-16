@@ -35,8 +35,8 @@ class LoginController extends GetxController{
     // TODO: implement onInit
     emailController = TextEditingController();
     passwordController = TextEditingController();
-    // emailController!.text = "rohit@rrdecor.com";
-    // passwordController!.text = "rrd@123";
+    emailController!.text = "rohit@rrdecor.com";
+    passwordController!.text = "rrd@123";
     super.onInit();
   }
 

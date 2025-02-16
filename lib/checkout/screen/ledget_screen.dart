@@ -51,8 +51,9 @@ class LedgerView extends StatelessWidget {
                     await showDatePicker(
                             context: context,
                             initialDate: DateTime.now(),
+                            //firstDate: DateTime.now(),
                             firstDate: DateTime(1955),
-                            lastDate: DateTime(1955 + 70),
+                            lastDate: DateTime(1955 + 100),
                             initialEntryMode: DatePickerEntryMode.calendarOnly)
                         .then((selectedDate) {
                       if (selectedDate != null) {
@@ -108,7 +109,7 @@ class LedgerView extends StatelessWidget {
                               context: context,
                               initialDate: DateTime.now(),
                               firstDate: DateTime(1955),
-                              lastDate: DateTime(1955 + 70),
+                              lastDate: DateTime(1955 + 100),
                               initialEntryMode:
                                   DatePickerEntryMode.calendarOnly)
                           .then((selectedDate) {
